@@ -124,7 +124,7 @@ function check(times){
         arrSys = [];
         arrUser = [];
         var count_press = 0;
-        $("h1").text("Game over, press any key to restart");
+        $("h1").text("Game over, refresh the page");
         $(document).keypress(function(){
             if (count_press == 0){
                 count_press++;
